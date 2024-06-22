@@ -7,7 +7,7 @@ let student = {
     let arr =[]
     for(let key in student)
     arr.push(key)
-    console.log(arr)
+    return arr
   }
 };
 student.getKeys();
